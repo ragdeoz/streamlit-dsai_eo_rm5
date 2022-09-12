@@ -2,5 +2,5 @@ streamlit
 altair
 pandas
 numpy
-matplotlib
+matplotlib.pyplot
 codecs
