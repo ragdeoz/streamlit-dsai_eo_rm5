@@ -10,8 +10,8 @@ E_ID = 'Employee_ID'
 # Definición de funciones
 @st.cache
 def load_data(nrows):
-    #doc = codecs.open(DATA_URL,'rU','latin1')
-    data = pd.read_csv(DATA_URL, nrows=nrows) #(doc, nrows=nrows)
+    #doc = codecs.open(DATA_URL,'rU','latin1') (doc, nrows=nrows)
+    data = pd.read_csv(DATA_URL, nrows=nrows)
     lowercase = lambda x: str(x).lower()
     return data
 
