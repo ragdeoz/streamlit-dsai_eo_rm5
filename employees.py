@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
-import codecs
+#import codecs
 
-DATA_URL = '/content/Employees.csv'
+DATA_URL = 'Employees.csv'
 E_ID = 'Employee_ID'
 
 # Definición de funciones
